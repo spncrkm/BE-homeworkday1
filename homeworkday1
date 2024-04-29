@@ -1,0 +1,39 @@
+
+# ==problem #1==
+# task 1
+weather = "sunny"
+
+if weather == "sunny":
+    print("Wear sunglasses!")
+else:
+    print("Take an umbrella!")
+
+# task 2
+
+mood = input("How do you feel today? ")
+if mood == "happy":
+    print("That's great to hear!")
+if mood == "sad":
+    print("I hope your day gets better!")
+
+
+# ==problem #2==
+# task 1
+pi_value = 3.14
+user_age = 25
+USER_LOCATION = "New York"
+MAX_LIMIT = 1000 #in this case it would seem that the max limit wouldn't change
+
+# ==problem #3 ==
+# task 1
+bread = 5.50
+ham = 7.90
+apples = 3.99
+total_cost = (bread + ham + apples)
+print(f"${total_cost}")
+
+# task 2
+bank_balance = 5000
+interest_rate = 0.07
+year_total_balance = (bank_balance * interest_rate + bank_balance)
+print(year_total_balance)
