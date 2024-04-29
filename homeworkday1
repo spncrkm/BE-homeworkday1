@@ -36,4 +36,4 @@ print(f"${total_cost}")
 bank_balance = 5000
 interest_rate = 0.07
 year_total_balance = (bank_balance * interest_rate + bank_balance)
-print(year_total_balance)
+print(f"${year_total_balance}")
